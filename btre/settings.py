@@ -20,7 +20,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'e8e)0f2-nf*^ins^=7gyru*ljs+l4d*@m-m!@f$pr43$8-9*be'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -143,13 +142,6 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
-
-# Email config
-EMAIL_HOST = 'outlook.office365.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER='hussain@gmail.com'
-EMAIL_HOST_PASSWORD='123'
-EMAIL_USE_TLS=True
 
 
 try:
