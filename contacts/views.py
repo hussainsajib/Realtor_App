@@ -30,8 +30,8 @@ def contact(request):
         send_mail(
             'Property Listing Inquiry',
             'There has been an inquiry for ' +listing +'. Sign into the admin panel for more information',
-            'mhisajib@myseneca.ca',
-            [realtor_email, 'm.hussainul.islam@gmail.com'],
+            'hussain@gmail',
+            [realtor_email, 'hussain@gmail.com'],
             fail_silently=False
         )
 

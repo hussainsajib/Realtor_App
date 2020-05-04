@@ -147,6 +147,6 @@ MESSAGE_TAGS = {
 # Email config
 EMAIL_HOST = 'outlook.office365.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER='mhisajib@myseneca.ca'
-EMAIL_HOST_PASSWORD='Function@6204'
+EMAIL_HOST_USER='hussain@gmail.com'
+EMAIL_HOST_PASSWORD='123'
 EMAIL_USE_TLS=True
